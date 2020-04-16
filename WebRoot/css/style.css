@@ -1,0 +1,151 @@
+*{
+	font-family: tahoma,arial,"Hiragino Sans GB","Microsoft Yahei";
+}
+
+body{
+	background-color: #edeff1;
+	padding-top:76px;
+}
+
+
+.navbar-brand.logo{
+	background: url('../images/logo.png') no-repeat center;
+	width: 280px;
+	padding: 0;
+	height: 76px;
+	text-indent: -9999px;
+}
+
+.footer li{
+	display:inline-block;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.footer{
+	text-align: center;
+	overflow:hidden;
+	margin-top:0px;
+	/*background: #ededed url(../images/footerline.png) repeat-x top;*/
+	padding:20px 0 20px;
+
+}
+
+/***************************for index.html start ******************************/
+
+
+h2,h3,h4{
+	padding:0;
+	margin:0 0 20px 0;
+}
+
+h2{
+	font-size: 120%;
+}
+
+@media (min-width:768px){
+	#content{
+		margin-top: -603px;
+		margin-bottom: 78px;
+	}
+	.loginbox{
+		/*position:absolute;
+		right:20px;
+		top:50%;
+		margin-top:-180px;
+		width:300px;*/
+		padding:0 10px;
+		height:500px;
+		overflow:hidden;
+
+	}
+
+	.activitylist{
+		padding-top:24px;
+		background: rgba(239,240,242,.85);
+		border-radius: 6px;
+	}
+	.login-form{
+		background: rgba(237,239,241,.95);
+	}
+	.login-form:before{
+		border:none;
+	}
+	.activitylist .tile{
+		background: none;
+		height:190px;
+		padding:2px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	.activitylist a.tile{
+		display: block;
+	}
+	.activitylist .tile:hover{
+		border: 1px solid #16A085;
+		background: #eff0f2;
+		padding-top: 1px;
+	}
+	.activitylist .tile-image, .activitylist .tile p{
+		margin:2px;
+	}
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 630px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+}
+
+/***************************for index.html end******************************/
+
+/***************************for 其它页面 start******************************/
+
+.mainbody section{
+	background: #fff;
+	padding: 20px 0;
+}
+
+/***************************for 其它页面 end******************************/
+
+.achieveimg{
+	width: 100%;
+}
+
+.achieve p{
+	text-indent: 2em;
+}
+
+.achieve li a{
+	font-size: 16px;
+}
+
+.achieve .nav > li > a{
+	padding: 3px 15px;
+}
+
+.achieve .nav-pills > li.active > a{
+	/*background-color: #2f4154;*/
+}
